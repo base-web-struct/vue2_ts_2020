@@ -1,0 +1,39 @@
+// 覆盖组件常用样式
+
+.el-button {
+  border-radius: 2px;
+  border: 1px solid #d3dce6;
+}
+.el-button--default {
+  color: #303E51;
+}
+.el-button--primary {
+  background: #336fff;
+  color: #fff;
+}
+
+
+// override MessageBox by add Custom-Class
+.pro-msg-box {
+  width: 400px;
+  padding: 0;
+
+  .el-message-box__header {
+    padding: 24px;
+
+    .el-message-box__title {
+      font-size: 16px;
+      color: #303E51;
+      line-height: 16px;
+    }
+    .el-message-box__headerbtn {
+      top: 24px;
+    }
+  }
+  .el-message-box__content {
+    padding: 0 24px;
+  }
+  .el-message-box__btns {
+    padding: 10px 24px 24px 24px;
+  }
+}
